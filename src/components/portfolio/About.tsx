@@ -26,7 +26,7 @@ export function About() {
         <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr]">
           <Reveal className="glass rounded-3xl p-7 sm:p-9">
             <p className="text-lg leading-relaxed text-foreground/90">
-              I'm <span className="text-primary">Nikhil Koundal</span>, a 2nd year B.Tech Computer
+              I'm <span className="text-primary">Nikhil Koundal</span>, a B.Tech Computer
               Science student at Lovely Professional University who enjoys turning ideas into
               working software while I learn.
             </p>
