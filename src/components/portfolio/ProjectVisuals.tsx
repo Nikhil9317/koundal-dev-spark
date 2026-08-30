@@ -109,10 +109,10 @@ export function GestureVisual() {
         {LINKS.map(([a, b], i) => (
           <motion.line
             key={`${a}-${b}`}
-            x1={POINTS[a][0]}
-            y1={POINTS[a][1]}
-            x2={POINTS[b][0]}
-            y2={POINTS[b][1]}
+            x1={POINTS[a]![0]}
+            y1={POINTS[a]![1]}
+            x2={POINTS[b]![0]}
+            y2={POINTS[b]![1]}
             stroke="var(--primary)"
             strokeWidth="0.6"
             strokeLinecap="round"

@@ -18,7 +18,7 @@ export function Skills() {
 
         <div className="grid gap-6 md:grid-cols-2">
           {SKILL_GROUPS.map((group, gi) => {
-            const Icon = ICONS[gi % ICONS.length];
+            const Icon = ICONS[gi % ICONS.length] ?? Braces;
             return (
               <Reveal key={group.title} delay={gi * 0.08}>
                 <div className="glass group h-full rounded-3xl p-7 transition-all duration-500 hover:-translate-y-1.5 hover:border-primary/40 hover:glow-ring">
