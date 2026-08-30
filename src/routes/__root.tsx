@@ -77,11 +77,19 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Nikhil Koundal — Developer Portfolio" },
+      {
+        name: "description",
+        content:
+          "Portfolio of Nikhil Koundal, computer science student and aspiring software developer.",
+      },
+      { name: "author", content: "Nikhil Koundal" },
+      { property: "og:title", content: "Nikhil Koundal — Developer Portfolio" },
+      {
+        property: "og:description",
+        content:
+          "Portfolio of Nikhil Koundal, computer science student and aspiring software developer.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
