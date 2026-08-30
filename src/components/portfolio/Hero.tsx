@@ -6,8 +6,8 @@ import { PROFILE } from "@/lib/portfolio-data";
 import { HeroVisual } from "./HeroVisual";
 
 const PHRASES = [
-  "Software Developer",
-  "Web Developer",
+  "B.Tech CSE Student",
+  "Aspiring Developer",
   "AI & Computer Vision Enthusiast",
   "Problem Solver",
 ];
