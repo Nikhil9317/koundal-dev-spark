@@ -1,6 +1,6 @@
 export const PROFILE = {
   name: "Nikhil Koundal",
-  role: "2nd Year B.Tech CSE Student at Lovely Professional University",
+  role: "B.Tech CSE Student at Lovely Professional University",
   tagline: "Learning by building — exploring programming, web technologies and AI through real projects.",
   email: "nikhilkoundal452007@gmail.com",
   phone: "+91-9317751056",

@@ -14,7 +14,7 @@ import { CursorGlow, Loader, ScrollProgress } from "@/components/portfolio/Chrom
 
 const title = "Nikhil Koundal — B.Tech CSE Student";
 const description =
-  "Portfolio of Nikhil Koundal, a 2nd year B.Tech CSE student building projects with Python, JavaScript, web technologies, AI and computer vision.";
+  "Portfolio of Nikhil Koundal, a B.Tech CSE student building projects with Python, JavaScript, web technologies, AI and computer vision.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
